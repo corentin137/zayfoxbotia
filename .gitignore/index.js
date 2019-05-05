@@ -8,7 +8,7 @@ bot.on('ready', function() {
     console.log("Connectedç")
 })
 
-bot.login("NTc0NjMwNTU0MDA4NDIwMzky.XM8MoA.x0kEkdhwDRIcN9okVIGU7Vkzkuk");
+bot.login(
 
 
 bot.on('message', message => {
@@ -19,5 +19,5 @@ bot.on('message', message => {
     if (message.content === "Salut"){
         message.reply("Bien le bonjour. :) :joy:")
         console.log("Commande Salut effectué")
-        }
+        
 })
